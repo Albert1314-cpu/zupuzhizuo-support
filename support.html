@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>族谱制作 - 支持页面</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f7;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1d1d1f;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1d1d1f;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #424245;
+        }
+        .app-info {
+            background: #f2f2f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e5e5e7;
+        }
+        .feature-list li:before {
+            content: "✓ ";
+            color: #34C759;
+            font-weight: bold;
+        }
+        .faq {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .faq h4 {
+            color: #007AFF;
+            margin-top: 0;
+        }
+        .contact {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .version {
+            background: #fff3e0;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .version h4 {
+            color: #f57c00;
+            margin-top: 0;
+        }
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5e7;
+            color: #86868b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>族谱制作 - 支持页面</h1>
+        
+        <div class="app-info">
+            <h2>应用信息</h2>
+            <p><strong>应用名称:</strong> 族谱制作</p>
+            <p><strong>当前版本:</strong> 1.0.2</p>
+            <p><strong>平台:</strong> macOS</p>
+            <p><strong>开发者:</strong> Albert1314</p>
+        </div>
+
+        <h2>功能特性</h2>
+        <ul class="feature-list">
+            <li>创建和管理家族族谱</li>
+            <li>添加家族成员信息</li>
+            <li>导出族谱数据（CSV格式）</li>
+            <li>生成族谱图片</li>
+            <li>支持中英文双语界面</li>
+            <li>长幼尊卑排序功能</li>
+            <li>数据备份和恢复</li>
+            <li>CSV数据导入导出</li>
+        </ul>
+
+        <h2>使用说明</h2>
+        
+        <h3>基本操作</h3>
+        <ol>
+            <li><strong>添加成员:</strong> 点击"添加成员"按钮，填写成员信息</li>
+            <li><strong>编辑成员:</strong> 点击成员卡片进行编辑</li>
+            <li><strong>删除成员:</strong> 长按成员卡片选择删除</li>
+            <li><strong>导出数据:</strong> 在设置页面选择导出格式</li>
+        </ol>
+
+        <h3>排序功能</h3>
+        <p>输入出生日期后，成员会自动按长幼尊卑排序，从左到右显示，年长者在前。</p>
+
+        <h3>语言设置</h3>
+        <p>支持中文和英文，在设置页面切换语言。</p>
+
+        <h2>常见问题</h2>
+        
+        <div class="faq">
+            <h4>Q: 如何备份我的族谱数据？</h4>
+            <p>A: 使用导出功能将数据保存为CSV文件，或使用应用内的备份功能。</p>
+        </div>
+
+        <div class="faq">
+            <h4>Q: 可以导入其他格式的数据吗？</h4>
+            <p>A: 目前支持CSV格式的导入和导出。</p>
+        </div>
+
+        <div class="faq">
+            <h4>Q: 应用支持多少个家族成员？</h4>
+            <p>A: 理论上没有限制，但建议单个族谱不超过1000个成员以保证性能。</p>
+        </div>
+
+        <div class="faq">
+            <h4>Q: 如何切换语言？</h4>
+            <p>A: 打开应用设置，在语言选项中选择中文或英文。</p>
+        </div>
+
+        <div class="faq">
+            <h4>Q: 数据安全吗？</h4>
+            <p>A: 所有数据都存储在您的设备本地，不会上传到任何服务器。</p>
+        </div>
+
+        <h2>技术支持</h2>
+        <div class="contact">
+            <p>如果您遇到问题或需要帮助，请通过以下方式联系我们：</p>
+            <ul>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Albert1314-cpu" target="_blank">https://github.com/Albert1314-cpu</a></li>
+                <li><strong>邮箱:</strong> 请在GitHub上提交Issue</li>
+            </ul>
+        </div>
+
+        <h2>隐私政策</h2>
+        <p>本应用不会收集或传输您的个人数据。所有族谱数据都存储在您的设备本地，确保您的隐私安全。</p>
+
+        <h2>更新日志</h2>
+        
+        <div class="version">
+            <h4>版本 1.0.2</h4>
+            <ul>
+                <li>修复了应用名称问题</li>
+                <li>优化了用户界面</li>
+                <li>改进了数据导出功能</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h4>版本 1.0.1</h4>
+            <ul>
+                <li>增加了长幼尊卑排序功能</li>
+                <li>添加了英语语言支持</li>
+                <li>修复了输入文件崩溃问题</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <h4>版本 1.0.0</h4>
+            <ul>
+                <li>初始版本发布</li>
+                <li>基本族谱管理功能</li>
+                <li>中文本地化支持</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>感谢您使用族谱制作应用！</p>
+            <p>© 2025 Albert1314. 保留所有权利。</p>
+        </div>
+    </div>
+</body>
+</html>
